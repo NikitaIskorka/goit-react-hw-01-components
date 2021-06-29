@@ -1,0 +1,13 @@
+.friendList {
+  display: flex;
+}
+.friendItem {
+  padding-left: 70px;
+  list-style: none;
+}
+
+.friendItem::before {
+  content: '';
+  width: 30px;
+  height: 30px;
+}

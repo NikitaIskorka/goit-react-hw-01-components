@@ -1,0 +1,27 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 10px;
+  box-shadow: 0px 1px 5px 1px rgba(34, 60, 80, 0.4);
+}
+.name {
+  text-decoration: underline solid palegreen;
+}
+.avatar {
+  display: block;
+  margin-right: 40px;
+}
+.onLine {
+  margin-right: 5px;
+  display: block;
+  width: 10px;
+  height: 10px;
+  background-color: green;
+  border-radius: 50%;
+}
+
+.offLine {
+  composes: onLine;
+  background-color: red;
+}
